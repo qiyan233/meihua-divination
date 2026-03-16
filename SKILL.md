@@ -21,8 +21,10 @@ Deliver Chinese-style divination readings with a stable internal structure. Trea
    - `references/symbol-system.md`
    - `references/element-relations.md`
    - `references/reasoning-patterns.md`
+   - `references/scenario-patterns.md` when the question matches a common real-life scene
 5. Calibrate tone and density with `references/examples.md`, `references/signature-lines.md`, and `references/traditional-meihua-notes.md`.
 6. Prefer using `scripts/render_reading.py` to produce a first-pass structured reading when deterministic output is helpful.
+7. After logic or phrasing changes, run `scripts/smoke_test.sh` as a quick regression check.
 7. Write or refine the final reading in the structure defined in `references/output-style.md`.
 8. Apply `references/safety-boundaries.md` before finalizing.
 
@@ -104,6 +106,7 @@ When the user asks high-risk questions, soften into:
 - Question routing: `references/question-types.md`
 - Symbol meanings: `references/symbol-system.md`
 - Interpretation logic: `references/reasoning-patterns.md`
+- Scenario patterns: `references/scenario-patterns.md`
 - Element relations: `references/element-relations.md`
 - Traditional anchors: `references/traditional-meihua-notes.md`
 - Output formats: `references/output-style.md`
